@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback</title>
+	<link rel="stylesheet" href="estyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+	<nav class="nav">
+        <div class="container flex1">
+            <div class="logo">
+                <img src="image/l.png" alt="bike logo" width=200px height=100px>
+            </div>
+            <div class="menu">
+                <div class="main_list">
+                    <ul>
+                        <li><a href="magazine.html#Home">Home/</a></li>
+                        <li><a href="magazine.html#bikes">Products/</a></li>
+                        <li><a href="road.html"><span style="font-size: 20px;">Bikes-Equipments/</span></a></li>
+                        <li><a href="about.html"><span style="font-size: 20px;">About</span></a></li>
+                        <span style=" margin-left: 80px;"><i class="fa-solid fa-comment" style="margin-top: 30px;"></i> 
+                        <li><a href="feedback.html"><span style="font-size: 20px;">Feedback</span></a></li></span>
+                    </ul>
+                </div>
+            </div> 
+            
+        
+        </div>
+    </nav>
+
+	<!--Feedback-->
+	
+	<div class='feedback'>
+		
+			<form method="POST" action="feedback.html" id="fm">
+				<br><br>
+				<div class="box-content animate__animated animate__lightSpeedInLeft animate__delay-0.5s">
+				<h1 class="oc">User<span>Feedback</span></h1></div>
+				<div class="box-content animate__animated animate__lightSpeedInLeft animate__delay-1s">
+				 <label>Full Name:</label>
+				 <input type="text" name="fullname"><br>
+				 <label>Email:</label>
+				 <input type="text" name="email"><br>
+				 <label>Address:</label>
+				 <input type="text" name="address"><br>
+				 <label>Phone Number:</label>
+				 <input type="tel" name="phone"><br>
+				 <label>Age:</label>
+				 <input type="text" name="age"><br>
+				 <label>Comment:</label>
+				 <span style='display: flex; justify-content: center; align-content: center; font-family: mv boli;'>
+				 <textarea name="comment" rows="5" cols="40"></textarea>
+				</span>
+				<label>Gender:</label>
+					<input type="radio" name="gender" value="female">
+					<label style="color: black; font-size: 15px;">Female</label>
+					<input type="radio" name="gender"  value="male">
+					<label style="color: black; font-size: 15px;">Male</label>
+					<input type="radio" name="gender"  value="other">
+					<label style="color: black; font-size: 15px;">Other</label>
+					<span style="color: red; font-family: mv boli;">
+					</span>
+
+				 <span style='display: flex; justify-content: center; align-content: center; '>
+				 <input type="submit" name="sub" value="SUBMIT">
+				</span><br><br>
+			</div>
+				<h1 class="oc">Thank you for using my Recommendation Website!</h1>
+
+			</form>
+		</div>
+
+</body>
+
+
+
+</html>
